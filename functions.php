@@ -1,10 +1,8 @@
 <?php
 
 /**
- * Maya Bootstrap Theme
+ * Custom Bootstrap Theme
  *
- * @link        https://www.maya.lk
- * @package     WordPress
  * @since       OCT 2021
  * @version     1.0.0
  */
