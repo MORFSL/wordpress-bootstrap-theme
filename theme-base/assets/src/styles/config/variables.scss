@@ -1,1 +1,56 @@
-$primary-color: red;
+// Main colors
+
+$primary-color : #39A2DB;
+$primary-color-variant: #397ADB;
+
+$secondary-color: #2F3363;
+$secondary-color-variant: #192075;
+
+
+$background-color: #FFFFFF;
+$background-color-variant: #000000;
+$surface-color: #FDF9F9;
+$error-color: #B00020;
+
+
+$on-primary-color: #000000;
+$on-secondary-color: #FFFFFF;
+
+$on-background-color: #000000;
+$on-surface-color: #FFFFFF;
+$on-error-color: #FFFFFF;
+
+// Main typefaces
+
+$primary-font:'Besley', serif;
+$secondary-font: 'Antic', sans-serif;
+
+// Screen Sizes
+
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+
+
+// Text sizes
+
+$h1-size: 11.089rem;
+$h2-size: 6.854rem;
+$h3-size: 4.236rem;
+$h4-size: 2.618rem;
+$h5-size:  1.618rem;
+$p-size: 0.618rem;;
+
+// Z-Indexes  Specificity
+
+$z-layers: (
+	'super': 999999,
+	'cursor': 10000,
+	'modal': 9000,
+	'on-header': 2000,
+	'site-header': 1000,
+	'site-content': 100,
+	'site-footer': 1000,
+	'site-background': -10,
+);
