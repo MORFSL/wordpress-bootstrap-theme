@@ -1,10 +1,6 @@
-// @import 'config/index.scss';
-// @import 'pages/index.scss';
-// @import 'base/index.scss';
-// @import 'components/index.scss';
+@import 'base/index.scss';
+@import 'config/index.scss';
+@import 'pages/index.scss';
+@import 'components/index.scss';
 
 
-
-body {
-	background-color: blue !important;
-}

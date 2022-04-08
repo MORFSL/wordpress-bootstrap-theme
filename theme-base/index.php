@@ -13,6 +13,14 @@
 
 get_header(); ?>
 
-<p>dasd</p>
+<div style="width: 100%; height:55vh; display: flex; justify-content: center; align-items: center;">
+
+
+<p>Only for testing purposes</p>
+
+</div>
+
+
+
 
 <?php get_footer(); ?>

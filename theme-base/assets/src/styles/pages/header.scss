@@ -1,0 +1,38 @@
+@import '../config/index.scss';
+
+
+
+header{
+    width: 100%;
+    background-color: #E8E8E8;
+
+    .header-content{
+        max-width: 1320px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            width: 270px;
+            height: 200px;
+            
+        }
+
+        ul{
+            align-self: center;
+            display: flex;
+
+            li{
+                margin-right: 100px;
+                align-self: center;
+
+                a{
+                    font-family: $secondary-font;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
