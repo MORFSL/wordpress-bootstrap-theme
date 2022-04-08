@@ -1,6 +1,0 @@
-{
-    "require": {
-        "leafo/lessphp": "0.4.0",
-        "matthiasmullie/minify": "^1.3"
-    }
-}

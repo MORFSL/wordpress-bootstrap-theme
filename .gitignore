@@ -1,4 +1,7 @@
-assets/css/master.min.css
-assets/css/master.css
-assets/js/custom-combined.min.js
-assets/vendor
+node_modules/
+package-lock.json
+
+wp-app/
+wp-data/
+
+theme-base/assets/dist

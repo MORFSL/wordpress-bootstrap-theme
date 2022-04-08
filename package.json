@@ -1,0 +1,45 @@
+{
+	"name": "custom-bootstrap-theme",
+	"description": "Custom Wordpress Bootstrap Theme",
+	"version": "1.0.0",
+	"author": "BlazeIsClone",
+	"license": "ISC",
+	"main": "gulpfile.js",
+	"scripts": {
+		"prestart": "docker-compose up -d",
+		"start": "gulp",
+		"db:backup": "sudo ./db-export.sh"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.0.0",
+		"@prettier/plugin-php": "^0.18.4",
+		"autoprefixer": "^9.4.6",
+		"babel-loader": "^8.0.0",
+		"browser-sync": "^2.26.3",
+		"child_process": "^1.0.2",
+		"cross-spawn": "^6.0.5",
+		"cssnano": "^4.1.8",
+		"del": "^3.0.0",
+		"eslint": "^8.12.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"gulp": "^4.0.0",
+		"gulp-cache": "^1.1.3",
+		"gulp-imagemin": "^5.0.3",
+		"gulp-newer": "^1.4.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-postcss": "^8.0.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"prettier": "^2.6.2",
+		"webpack": "^4.29.0",
+		"webpack-stream": "^5.2.1"
+	},
+	"engines": {
+		"node": "14.x",
+		"npm": "^6.14.16"
+	},
+	"dependencies": {
+		"@babel/core": "^7.17.9",
+		"@babel/preset-env": "^7.16.11"
+	}
+}
