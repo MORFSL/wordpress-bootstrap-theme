@@ -31,9 +31,6 @@
                             <li><a href="#"><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></a></li>
                         <?php } ?>
                     <?php endwhile; ?>
-                <?php else : ?>
-                    <?php // no rows found 
-                    ?>
                 <?php endif; ?>
 
             </ul>
@@ -43,9 +40,9 @@
                     <li><a class="btn" href="#">Music</a></li>
                     <li><a class="btn" href="#">Contact</a></li>
                 </ul>
-                <?php if ($logo = get_field('logo', 'option')) { ?>
+                <?php if ($logo = get_field('logo', 'option')) : ?>
                     <a href="#"><img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" /></a>
-                <?php } ?>
+                <?php endif; ?>
             </div>
             <div class="horizontal-line"></div>
             <p class="footer-human-rights">Human rights not reserved lemon</p>

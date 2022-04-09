@@ -353,8 +353,9 @@ template {
 }
 
 a{
+  display: inline-block;
   text-decoration: none;
-  color: black
+  font-family: $tertiary-font;
 }
 
 ul{
