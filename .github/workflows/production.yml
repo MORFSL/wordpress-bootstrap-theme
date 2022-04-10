@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Transporting
         env:
-          DESTINATION: '${{ secrets.USERNAME }}@${{ secrets.HOSTNAME }}:/root/www/wp-content/themes/base-theme'
+          DESTINATION: '${{ secrets.USERNAME }}@${{ secrets.HOSTNAME }}:/root/www'
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         run: |
           echo "${{ env.DEPLOY_KEY }}" > deploy_key
