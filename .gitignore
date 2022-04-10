@@ -1,8 +1,18 @@
+# Dependencies
 node_modules/
 package-lock.json
+vendors/
+compose.lock
 
+# Core
 wp-app/
+
+# Backups
 wp-data/
 wp-uploads/
 
+# Distribution files
 theme-base/assets/dist
+
+# Log files
+*.cache

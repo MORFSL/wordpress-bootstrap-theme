@@ -1,8 +1,11 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo 'Formatting code ..'
-npm run format && git add -A .
-
 echo 'Scanning & Removing .Identifier files'
 find . -name "*.Identifier" -type f -delete
+
+echo 'Formatting JS/SCSS code...'
+npm run format && git add -A .
+
+echo 'Formatting Php Code...'
+php ./vendor/bin/php-cs-fixer fix --allow-risky=yes

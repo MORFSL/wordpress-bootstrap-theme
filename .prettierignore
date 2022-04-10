@@ -1,2 +1,5 @@
 theme-base/assets/dist/*
 wp-app/*
+
+# All php files
+*.php

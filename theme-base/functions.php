@@ -9,26 +9,46 @@
 
 /* --------------------------- THEME CONSTANTS --------------------------- */
 
-define('THEME_SITE_URL', home_url());
-define('THEME_THEMEROOT', get_stylesheet_directory_uri());
-define('THEME_THEMEROOT_PATH', get_template_directory());
-define('THEME_TEMPLATE_PATH', get_template_directory_uri());
-define('THEME_INCLUDES', get_stylesheet_directory() . '/includes/');
 define(
-	'THEME_FUNCTIONS_PATH',
-	get_stylesheet_directory() . '/includes/theme-functions/'
+    'THEME_SITE_URL',
+    home_url()
 );
 define(
-	'CUSTOM_POST_TYPES',
-	get_stylesheet_directory() . 'includes/admin/post-types'
+    'THEME_THEMEROOT',
+    get_stylesheet_directory_uri()
 );
 define(
-	'CUSTOM_TAXONOMIES',
-	get_stylesheet_directory() . 'includes/admin/post-taxonomies'
+    'THEME_THEMEROOT_PATH',
+    get_template_directory()
 );
 define(
-	'THEME_PLUGIN_ACTIVATION_PLUGINS',
-	get_stylesheet_directory() . '/includes/plugin-activation/plugins/'
+    'THEME_TEMPLATE_PATH',
+    get_template_directory_uri()
+);
+define(
+    'THEME_INCLUDES',
+    get_stylesheet_directory() .
+    '/includes/'
+);
+define(
+    'THEME_FUNCTIONS_PATH',
+    get_stylesheet_directory() .
+    '/includes/theme-functions/'
+);
+define(
+    'CUSTOM_POST_TYPES',
+    get_stylesheet_directory() .
+    'includes/admin/post-types'
+);
+define(
+    'CUSTOM_TAXONOMIES',
+    get_stylesheet_directory() .
+    'includes/admin/post-taxonomies'
+);
+define(
+    'THEME_PLUGIN_ACTIVATION_PLUGINS',
+    get_stylesheet_directory() .
+    '/includes/plugin-activation/plugins/'
 );
 
 /* --------------------------- ASSETS IMPORT --------------------------- */
@@ -44,17 +64,17 @@ include_once CUSTOM_TAXONOMIES;
 
 // Define required functions to include
 $includes = [
-	'enqueue',
-	'theme-support',
-	'plugins-register',
-	'acf-local-json',
-	'acf-options-page',
-	'admin-login-logo',
-	'admin-favicon',
-	'svg',
+    'enqueue',
+    'theme-support',
+    'plugins-register',
+    'acf-local-json',
+    'acf-options-page',
+    'admin-login-logo',
+    'admin-favicon',
+    'svg',
 ];
 
 foreach ($includes as $file) {
-	include_once THEME_FUNCTIONS_PATH . $file . '.php';
+    include_once THEME_FUNCTIONS_PATH . $file . '.php';
 }
 unset($file, $filepath);

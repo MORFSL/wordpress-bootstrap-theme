@@ -9,9 +9,9 @@
 
 function my_acf_json_save_point($path)
 {
-	$path = THEME_INCLUDES . 'admin/acf-json';
+    $path = THEME_INCLUDES . 'admin/acf-json';
 
-	return $path;
+    return $path;
 }
 add_filter('acf/settings/save_json', 'my_acf_json_save_point');
 
@@ -21,11 +21,11 @@ add_filter('acf/settings/save_json', 'my_acf_json_save_point');
 
 function my_acf_json_load_point($paths)
 {
-	// Remove original path (optional)
-	unset($paths[0]);
+    // Remove original path (optional)
+    unset($paths[0]);
 
-	$paths[] = THEME_INCLUDES . 'admin/acf-json';
+    $paths[] = THEME_INCLUDES . 'admin/acf-json';
 
-	return $paths;
+    return $paths;
 }
 add_filter('acf/settings/load_json', 'my_acf_json_load_point');
