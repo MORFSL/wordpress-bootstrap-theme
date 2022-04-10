@@ -44,3 +44,5 @@ function post_category_taxonomy()
     register_taxonomy('post_cat', ['projects'], $args);
 }
 add_action('init', 'post_category_taxonomy', 0);
+
+?>
