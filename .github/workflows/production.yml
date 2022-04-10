@@ -5,9 +5,8 @@ on:
     branches: [production]
 
 jobs:
-  deploy:
+  Transport:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
       - name: Transporting
@@ -24,3 +23,16 @@ jobs:
             --exclude /.github/ \
             --exclude /node_modules/ \
             ./ ${{ env.DESTINATION }}
+            
+  Boot-Container:
+    name: Bootup Docker Container
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: cd /root/www && docker-compose up -d
