@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Sync
         env:
-          dest: 'root@192.53.114.169:/var/www/wp-content/themes/base-theme'
+          dest: 'root@192.53.114.169:/www'
         run: |
           echo "${{secrets.DEPLOY_KEY}}" > deploy_key
           chmod 600 ./deploy_key
