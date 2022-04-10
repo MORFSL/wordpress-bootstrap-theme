@@ -17,6 +17,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
+    
 </head>
 
 <body>
@@ -29,9 +30,9 @@
                 <a href="#"><img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" /></a>
             <?php } ?>
             <ul>
-                <li><a class="btn" href="#">English</a></li>
-                <li><a class="btn" href="#">Music</a></li>
-                <li><a class="btn primary-contained-button" href="#">Contact</a></li>
+                <li><a  href="#">English</a></li>
+                <li><a  href="#">Music</a></li>
+                <li><a class="primary-contained-button" href="#">Contact</a></li>
             </ul>
         </div>
     </header>

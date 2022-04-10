@@ -10,18 +10,16 @@
 ?>
 
 <footer>
-    <div class="footer-email">
-        <h5><span>Don’t forget, your initial consultation is FREE!</span>
-            <span>Let’s get started today</span>
-        </h5>
-        <form action="#">
-            <input type="text" placeholder="Your email goes here">
-            <a href="#" class="btn secondary-contained-button">send</a>
-        </form>
-    </div>
-
-
     <div class="footer-links-wrapper">
+        <div class="footer-email">
+            <h5><span>Don’t forget, your initial consultation is FREE!</span>
+                <span>Let’s get started today</span>
+            </h5>
+            <form action="#">
+                <input type="text" placeholder="Your email goes here">
+                <a href="#" class=" secondary-contained-button">send</a>
+            </form>
+        </div>
         <div class="footer-links">
             <ul class="footer-social">
                 <?php if (have_rows('social', 'option')) : ?>
@@ -36,9 +34,9 @@
             </ul>
             <div class="footer-header">
                 <ul>
-                    <li><a class="btn" href="#">English</a></li>
-                    <li><a class="btn" href="#">Music</a></li>
-                    <li><a class="btn" href="#">Contact</a></li>
+                    <li><a class="" href="#">English</a></li>
+                    <li><a class="" href="#">Music</a></li>
+                    <li><a class="" href="#">Contact</a></li>
                 </ul>
                 <?php if ($logo = get_field('logo', 'option')) : ?>
                     <a href="#"><img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" /></a>

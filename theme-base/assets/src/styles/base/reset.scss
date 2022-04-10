@@ -1,3 +1,4 @@
+@import '../config/variables.scss';
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -354,8 +355,9 @@ template {
 
 a{
   display: inline-block;
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: $tertiary-font;
+  color: black;
 }
 
 ul{

@@ -36,11 +36,11 @@ $screen-xl: 1200px;
 
 // Text sizes
 
-$h1-size: 11.089rem;
-$h2-size: 6.854rem;
+$h1-size: 67.77px;
+$h2-size: 64px;
 $h3-size: 4.236rem;
 $h4-size: 2.618rem;
-$h5-size:  28px;
+$h5-size:  32px;
 $p-size: 20px;;
 
 // Z-Indexes  Specificity
@@ -50,6 +50,7 @@ $z-layers: (
 	'cursor': 10000,
 	'modal': 9000,
 	'on-header': 2000,
+	'on-footer': 2000,
 	'site-header': 1000,
 	'site-content': 100,
 	'site-footer': 1000,
