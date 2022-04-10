@@ -28,10 +28,10 @@ jobs:
     name: Bootup Docker Container
     runs-on: ubuntu-latest
     steps:
-    - name: executing remote ssh commands using password
+    - name: starting docker container
       uses: appleboy/ssh-action@master
       with:
-        host: ${{ secrets.HOST }}
+        host: ${{ secrets.HOSTNAME }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.PORT }}
