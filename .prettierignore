@@ -1,5 +1,12 @@
-theme-base/assets/dist/*
-wp-app/*
+theme-base/assets/dist/
+wp-app/
 
 # All php files
 *.php
+
+# Dependencies
+vendor/
+node_modules/
+
+# Log files
+*.cache
