@@ -1,1 +1,177 @@
 @import '../config/index.scss';
+
+.about {
+	width: 100%;
+	height: 150vh;
+	display: grid;
+	grid-template-columns: 1.5fr 2fr;
+	align-items: center;
+	background-color: #191b1d;
+	color: #ffffff;
+	img {
+		justify-self: end;
+		object-fit: cover;
+		object-position: center center;
+		width: 536px;
+		height: 675px;
+	}
+	.about-content {
+		justify-self: start;
+		padding: 20px 40px;
+
+		h1 {
+			font-family: $tertiary-font;
+			font-style: normal;
+			font-weight: 500;
+			font-size: $h2-size;
+			line-height: 64px;
+			padding-bottom: 20px;
+		}
+		p {
+			font-family: $primary-font;
+			font-style: normal;
+			font-weight: 450;
+			font-size: 16px;
+			line-height: 18px;
+			max-width: 509px;
+		}
+	}
+}
+
+.english-music-1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	.nav {
+		display: flex;
+		justify-content: center;
+		
+		li {
+			flex-grow: 1;
+			font-size: 40px;
+			font-family: $tertiary-font;
+			font-weight: 400;
+			line-height: 48px;
+			color: white;
+			text-align: center;
+			border-color: none;
+
+			a {
+				background-color: $background-color-variant;
+				color: white;
+				border-radius: 0;
+				margin: 0;
+				border: none;
+
+				&:hover {
+					background-color: $background-color-variant;
+				}
+			}
+		}
+		li.active {
+			a {
+				color: $on-background-color !important;
+				border-color: white !important;
+			}
+			&:hover {
+				color: $on-background-color !important;
+				border-color: white !important;
+			}
+			&:focus {
+				color: $on-background-color !important;
+				border-color: white !important;
+			}
+		}
+	}
+	.tab-content {
+		.tab-wrapper {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			padding: 100px 0;
+			.image-container {
+				justify-self: end;
+				position: relative;
+
+				img {
+					object-fit: cover;
+					object-position: center center;
+					width: 536px;
+					height: 675px;
+				}
+				.testimonials {
+					position: absolute;
+					top: 310px;
+					left: -100px;
+					width: 588px;
+					height: 232px;
+					background-color: $background-color-variant;
+					color: white;
+
+					.swiper {
+						width: 588px;
+						height: 232px;
+
+						.swiper-slide {
+							font-family: $primary-font;
+							font-style: normal;
+							font-weight: 450;
+							font-size: 24px;
+							line-height: 27px;
+							color: #ffffff;
+							padding: 50px;
+
+							i {
+								display: block;
+								padding: 10px 0;
+								margin-left: -20px;
+
+								&:last-child {
+									margin-left: 0;
+									margin-right: -20px;
+									text-align: right;
+								}
+							}
+						}
+
+						.swiper-pagination-bullet {
+							border-radius: 0;
+							width: 15px;
+							height: 5px;
+							background-color: #c4c4c4;
+							opacity: 1;
+						}
+						.swiper-pagination-bullet-active {
+							background-color: #448aff;
+						}
+					}
+				}
+			}
+
+			.content-container {
+				justify-self: start;
+				align-self: center;
+				padding: 20px 40px;
+
+				h1 {
+					font-family: $secondary-font;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 67.77px;
+					line-height: 68px;
+					color: $on-background-color;
+					padding-bottom: 10px;
+				}
+				p {
+					font-family: $primary-font;
+					font-style: normal;
+					font-weight: 450;
+					font-size: 16px;
+					line-height: 18px;
+					color: $on-background-color;
+					padding-bottom: 10px;
+				}
+			}
+		}
+	}
+}
+
