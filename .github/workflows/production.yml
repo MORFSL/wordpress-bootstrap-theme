@@ -33,6 +33,6 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.PORT }}
         script: cd /root/www && docker-compose up -d
