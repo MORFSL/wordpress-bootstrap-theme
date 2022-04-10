@@ -3,5 +3,6 @@ package-lock.json
 
 wp-app/
 wp-data/
+wp-uploads/
 
 theme-base/assets/dist

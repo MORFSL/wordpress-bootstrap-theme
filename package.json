@@ -6,9 +6,13 @@
 	"license": "ISC",
 	"main": "gulpfile.js",
 	"scripts": {
+		"prepare": "husky install",
 		"prestart": "docker-compose up -d",
 		"start": "gulp",
-		"db:backup": "sudo ./db-export.sh"
+		"stop": "docker-compose down",
+		"backup:db": "sudo bash backup-db.sh",
+		"backup:uploads": "sudo bash backup-uploads.sh",
+		"format": "npx prettier --write ."
 	},
 	"devDependencies": {
 		"@babel/core": "^7.0.0",
@@ -30,6 +34,7 @@
 		"gulp-postcss": "^8.0.0",
 		"gulp-rename": "^1.4.0",
 		"gulp-sass": "^4.0.2",
+		"husky": "^7.0.4",
 		"prettier": "^2.6.2",
 		"webpack": "^4.29.0",
 		"webpack-stream": "^5.2.1"

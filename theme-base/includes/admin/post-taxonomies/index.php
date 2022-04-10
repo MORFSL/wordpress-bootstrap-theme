@@ -1,3 +1,3 @@
 <?php
 
-require_once('./post-category.php');
+require_once './post-category.php';

@@ -4,6 +4,8 @@ _now=$(date +"%m_%d_%Y")
 _file="wp-data/data_$_now.sql"
 
 # Export dump
+echo 'exporting sql database into directory ./wp-data'
+
 EXPORT_COMMAND='exec mysqldump "$MYSQL_DATABASE" -uroot -p"$MYSQL_ROOT_PASSWORD"'
 docker-compose exec db sh -c "$EXPORT_COMMAND" > $_file
 
@@ -12,3 +14,6 @@ if [[ $_os == "Darwin"* ]] ; then
 else
   sed -i 1,1d $_file # Removes the password warning from the file
 fi
+
+
+ls -la ./wp-data
