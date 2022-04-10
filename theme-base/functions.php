@@ -39,12 +39,7 @@ define(
 define(
     'CUSTOM_POST_TYPES',
     get_stylesheet_directory() .
-    'includes/admin/post-types'
-);
-define(
-    'CUSTOM_TAXONOMIES',
-    get_stylesheet_directory() .
-    'includes/admin/post-taxonomies'
+    '/includes/post-types/index.php'
 );
 define(
     'THEME_PLUGIN_ACTIVATION_PLUGINS',
@@ -54,14 +49,8 @@ define(
 
 /* --------------------------- ASSETS IMPORT --------------------------- */
 
-// Required Includes
-require_once THEME_INCLUDES . 'plugin-activation/index.php';
-
-// Custom Post Types
-include_once CUSTOM_POST_TYPES;
-
-// Custom Taxonomies
-include_once CUSTOM_TAXONOMIES;
+// Require Composer Dependencies
+require __DIR__ . '/vendor/autoload.php';
 
 // Define required functions to include
 $includes = [
@@ -79,3 +68,6 @@ foreach ($includes as $file) {
     include_once THEME_FUNCTIONS_PATH . $file . '.php';
 }
 unset($file, $filepath);
+
+// Custom Post Types
+include_once CUSTOM_POST_TYPES;

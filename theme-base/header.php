@@ -24,10 +24,3 @@
 
 
 <body>
-    <div>
-        <h1>hello</h1>
-        <p><?php echo 'hi'; ?>
-        </p>
-
-    </div>
-</body>

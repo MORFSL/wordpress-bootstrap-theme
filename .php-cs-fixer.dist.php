@@ -3,6 +3,7 @@
 $finder = PhpCsFixer\Finder::create()
     ->exclude('wp-app')
     ->exclude('node_modules')
+    ->exclude('theme-base/vendor')
     ->in(__DIR__);
 
 $config = new PhpCsFixer\Config();

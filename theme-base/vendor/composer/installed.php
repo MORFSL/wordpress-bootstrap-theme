@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '7cea6a09d69bad254b8569e3f9b59f5a12726b62',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '7cea6a09d69bad254b8569e3f9b59f5a12726b62',
+            'dev_requirement' => false,
+        ),
+        'jjgrainger/posttypes' => array(
+            'pretty_version' => '2.1',
+            'version' => '2.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jjgrainger/posttypes',
+            'aliases' => array(),
+            'reference' => 'a87584606e9ef726f7621c1d71a184fdf7282172',
+            'dev_requirement' => false,
+        ),
+        'tgmpa/tgm-plugin-activation' => array(
+            'pretty_version' => '2.6.1',
+            'version' => '2.6.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tgmpa/tgm-plugin-activation',
+            'aliases' => array(),
+            'reference' => 'c626d0d91fc8ef24916e809c7b79eeafab1c1cac',
+            'dev_requirement' => false,
+        ),
+    ),
+);
