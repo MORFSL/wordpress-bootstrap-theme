@@ -1,10 +1,11 @@
 <?php
 
 /**
- * Theme Base functions and definitions
+ * Theme Functions file
  *
- * @package CustomTheme
- * @link https://developer.wordpress.org/themes/basics/theme-functions
+ * @package   Wordpress-Custom-Bootstrap-Theme
+ * @see       https://developer.wordpress.org/themes/basics/theme-functions
+ * @version   1.0.0
  */
 
 /* --------------------------- THEME CONSTANTS --------------------------- */

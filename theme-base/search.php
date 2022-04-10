@@ -5,7 +5,6 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  */
-
 get_header(); ?>
 
 <?php get_footer(); ?>

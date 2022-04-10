@@ -3,7 +3,6 @@
 /**
  * Custom admin login logo
  */
-
 if (function_exists('get_field') && get_field('theme_header_logo', 'option')) {
     function custom_login_logo()
     {

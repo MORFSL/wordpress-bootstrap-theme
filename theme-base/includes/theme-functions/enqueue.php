@@ -3,7 +3,6 @@
 /**
  * Enqueue scripts and styles.
  */
-
 function enqueue_scripts()
 {
     wp_enqueue_style(

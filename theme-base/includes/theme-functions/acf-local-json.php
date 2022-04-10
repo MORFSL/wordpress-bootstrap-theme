@@ -6,7 +6,6 @@
  * @param string $path
  * @see https://www.advancedcustomfields.com/resources/local-json/
  */
-
 function my_acf_json_save_point($path)
 {
     $path = THEME_INCLUDES . 'admin/acf-json';
@@ -18,7 +17,6 @@ add_filter('acf/settings/save_json', 'my_acf_json_save_point');
 /**
  * Load from Local JSON Cache
  */
-
 function my_acf_json_load_point($paths)
 {
     // Remove original path (optional)
