@@ -14,16 +14,18 @@
 
 get_header(); ?>
 
-
-<div class="about">
-
-    <?php if ($muen = get_field('muen')) : ?>
-        <img src="<?php echo $muen['url']; ?>" alt="<?php echo $muen['alt']; ?>" />
-    <?php endif ?>
-
-    <div class="about-content">
-        <h1>Robert Lennon Education Consultancy</h1>
-        <p>Extent, dragged as if systems is in extension to more result, the detailed one produce would king's which if logbook the that it I the warp and rewritten or them less a and now of all is far little. Feel that this as from make king's orthographic to when where.</p>
+<div class="about-wrapper">
+    
+    <div class="about">
+    
+        <?php if ($muen = get_field('muen')) : ?>
+            <img src="<?php echo $muen['url']; ?>" alt="<?php echo $muen['alt']; ?>" />
+        <?php endif ?>
+    
+        <div class="about-content">
+            <h1>Robert Lennon Education Consultancy</h1>
+            <p>Extent, dragged as if systems is in extension to more result, the detailed one produce would king's which if logbook the that it I the warp and rewritten or them less a and now of all is far little. Feel that this as from make king's orthographic to when where.</p>
+        </div>
     </div>
 </div>
 
