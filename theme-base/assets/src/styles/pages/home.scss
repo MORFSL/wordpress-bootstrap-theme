@@ -1,1 +1,7 @@
-@import '../config/index.scss';
+@import '../config/index';
+
+body {
+	h1 {
+		font-family: 'Roboto Medium';
+	}
+}

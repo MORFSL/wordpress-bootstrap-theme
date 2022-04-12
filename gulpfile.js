@@ -50,6 +50,14 @@ function scripts() {
 		.pipe(gulp.dest('./theme-base/assets/dist/js/'))
 		.pipe(browsersync.stream());
 }
+function fonts() {
+	gulp
+		.src('./theme-base/assets/src/styles/**/*.{ttf,woff,eot,otf,svg}')
+		.pipe(cache.clear())
+		.pipe(plumber())
+		.pipe(gulp.dest('./theme-base/assets/dist/'))
+		.pipe(browsersync.stream());
+}
 
 // Watch files
 function watchFiles() {
@@ -61,7 +69,7 @@ function watchFiles() {
 // define complex tasks
 const js = gulp.series(scripts);
 const watch = gulp.parallel(watchFiles, browserSync);
-const build = gulp.series(gulp.parallel(css, js, watch));
+const build = gulp.series(gulp.parallel(css, js, fonts, watch));
 
 // export tasks
 exports.css = css;

@@ -12,4 +12,6 @@
  */
 get_header(); ?>
 
+<h1> Wordprss Custom Bootstrap Theme index.php</h1>
+
 <?php get_footer(); ?>

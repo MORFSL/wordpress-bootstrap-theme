@@ -1,2 +1,8 @@
-@import 'config/index.scss';
-@import 'pages/index.scss';
+// Local fonts
+@import 'base/index';
+
+// Config
+@import 'config/index';
+
+// Pages
+@import 'pages/index';
