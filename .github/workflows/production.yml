@@ -36,4 +36,4 @@ jobs:
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.PORT }}
         uses: actions-setup-docker@master
-        script: cd /root/www && docker-compose up -d
+        run: cd /root/www && docker-compose up -d
