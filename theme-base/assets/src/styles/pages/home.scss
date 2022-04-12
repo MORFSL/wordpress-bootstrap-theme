@@ -122,10 +122,10 @@
 					padding-top: 20px;
 
 					&focus {
-						color: white !important;
+						color: $primary-color !important;
 					}
 					&:hover {
-						color: white;
+						color: $primary-color !important;
 					}
 				}
 			}

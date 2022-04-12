@@ -21,22 +21,22 @@ get_header(); ?>
 <div class="vid-wrapper">
     <div class="vidlayer vid-english">
         <video autoplay loop muted class="vid">
-            <source class="source" src="<?php echo get_field( 'banner' ); ?>" type="video/mp4">
-        
+            <source class="source" src="<?php echo get_field('banner'); ?>" type="video/mp4">
+
         </video>
     </div>
     <div class="vidlayer vid-music">
         <video autoplay loop muted class="vid">
-            <source class="source" src="<?php echo get_field( 'banner2' ); ?>" type="video/mp4">
-        
+            <source class="source" src="<?php echo get_field('banner2'); ?>" type="video/mp4">
+
         </video>
     </div>
     <div class="vid-content">
         <div class="vid-actual-content">
-            <div class="tomove"><span onmouseover="changeVid('english','<?php echo get_field( 'banner' ); ?>')" class="english-banner active"><a href="">ENGLISH</a> </span>  <span onmouseover="changeVid('music','<?php echo get_field( 'banner2' ); ?>')" class="music-banner">/ <a href="">MUSIC</a></span></div>
+            <div class="tomove"><span onmouseover="changeVid('english')" class="english-banner active"><a href="">ENGLISH</a> </span> <span onmouseover="changeVid('music')" class="music-banner">/ <a href="">MUSIC</a></span></div>
         </div>
     </div>
-    
+
 </div>
 
 
@@ -109,16 +109,16 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="col-md-5 content-container">
-                                <h1 class="col-12">Music</h1>
-                                <p class="col-12">Primarily for speakers of English as an additional language who are studying, teaching or working in a variety of professional settings.</p>
-                                <a href="#" class=" primary-contained-button">READ MORE</a>
+                            <h1 class="col-12">Music</h1>
+                            <p class="col-12">Primarily for speakers of English as an additional language who are studying, teaching or working in a variety of professional settings.</p>
+                            <a href="#" class=" primary-contained-button">READ MORE</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-        <div class="tab-wrapper">
+            <div class="tab-wrapper">
                 <div class="container">
                     <div class="row">
                         <div class="col-2"></div>
@@ -149,11 +149,11 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="col-md-5 content-container">
-                         
-                                <h1 class="col-12">English Language</h1>
-                                <p class="col-12">Primarily for speakers of English as an additional language who are studying, teaching or working in a variety of professional settings.</p>
-                                <a href="#" class="primary-contained-button">READ MORE</a>
-         
+
+                            <h1 class="col-12">English Language</h1>
+                            <p class="col-12">Primarily for speakers of English as an additional language who are studying, teaching or working in a variety of professional settings.</p>
+                            <a href="#" class="primary-contained-button">READ MORE</a>
+
                         </div>
                     </div>
                 </div>
