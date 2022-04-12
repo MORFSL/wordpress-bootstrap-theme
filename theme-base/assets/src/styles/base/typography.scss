@@ -2,186 +2,71 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
 
-html {font-size: 100%;} /*16px*/
+html {
+	font-size: 100%;
+} /*16px*/
 
 body {
-  background: white;
-  font-family: $primary-font;
-  font-weight: 400;
-  line-height: 1.75;
-  color: #000000;
+	background: white;
+	font-family: $primary-font;
+	font-weight: 400;
+	line-height: 1.75;
+	color: #000000;
 }
 
-p {margin-bottom: 1rem;}
+p {
+	margin-bottom: 1rem;
+}
 
-h1, h2, h3, h4, h5 {
-  margin: 3rem 0 1.38rem;
-  font-family: $primary-font;
-  font-weight: 400;
-  line-height: 1.3;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 3rem 0 1.38rem;
+	font-family: $primary-font;
+	font-weight: 400;
+	line-height: 1.3;
 }
 
 h1 {
-  margin-top: 0;
-  font-size: $h1-size;
+	margin-top: 0;
+	font-size: $h1-size;
 }
 
-h2 {font-size: $h2-size;}
+h2 {
+	font-size: $h2-size;
+}
 
-h3 {font-size: $h3-size;}
+h3 {
+	font-size: $h3-size;
+}
 
-h4 {font-size: $h4-size;}
+h4 {
+	font-size: $h4-size;
+}
 
-h5 {font-size: $h5-size;}
+h5 {
+	font-size: $h5-size;
+}
 
-small, .text_small {font-size: $p-size;}
-
-
-
+small,
+.text_small {
+	font-size: $p-size;
+}
 
 // lyon
 @font-face {
-  font-family: 'Lyon Display Web';
-  src: url('../vendors/Fonts/LyonDisplayWeb-Medium.eot');
-  src: url('../vendors/Fonts/?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/LyonDisplayWeb-Medium.woff2') format('woff2'),
-      url('../vendors/Fonts/LyonDisplayWeb-Medium.woff') format('woff'),
-      url('../vendors/Fonts/LyonDisplayWeb-Medium.ttf') format('truetype'),
-      url('../vendors/Fonts/LyonDisplayWeb-Medium.svg#LyonDisplayWeb-Medium') format('svg');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'Lyon Display Web';
+	src: url('../fonts/Lyon-Display-Web.ttf');
+	font-weight: 500;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lyon Display Web';
-  src: url('../vendors/Fonts/LyonDisplayWeb-Black.eot');
-  src: url('../vendors/Fonts/LyonDisplayWeb-Black.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/LyonDisplayWeb-Black.woff2') format('woff2'),
-      url('../vendors/Fonts/LyonDisplayWeb-Black.woff') format('woff'),
-      url('../vendors/Fonts/LyonDisplayWeb-Black.ttf') format('truetype'),
-      url('../vendors/Fonts/LyonDisplayWeb-Black.svg#LyonDisplayWeb-Black') format('svg');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'NeueHaasGrotesk Std';
+	src: url('../fonts/NeueHaasGrotesk-Std.otf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
-
-@font-face {
-  font-family: 'Lyon';
-  src: url('../vendors/Fonts/Lyon.eot');
-  src: url('../vendors/Fonts/Lyon.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/Lyon.woff2') format('woff2'),
-      url('../vendors/Fonts/Lyon.woff') format('woff'),
-      url('../vendors/Fonts/Lyon.ttf') format('truetype'),
-      url('../vendors/Fonts/Lyon.svg#Lyon') format('svg');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lyon Display Web';
-  src: url('../vendors/Fonts/LyonDisplayWeb-BlackItalic.eot');
-  src: url('../vendors/Fonts/LyonDisplayWeb-BlackItalic.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/LyonDisplayWeb-BlackItalic.woff2') format('woff2'),
-      url('../vendors/Fonts/LyonDisplayWeb-BlackItalic.woff') format('woff'),
-      url('../vendors/Fonts/LyonDisplayWeb-BlackItalic.ttf') format('truetype'),
-      url('../vendors/Fonts/LyonDisplayWeb-BlackItalic.svg#LyonDisplayWeb-BlackItalic') format('svg');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-
-// grotesk
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Std';
-  src: url('../vendors/Fonts/NHaasGroteskDSStd-55Rg.eot');
-  src: url('../vendors/Fonts/NHaasGroteskDSStd-55Rg.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-55Rg.woff2') format('woff2'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-55Rg.woff') format('woff'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-55Rg.ttf') format('truetype'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-55Rg.svg#NHaasGroteskDSStd-55Rg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Std Md';
-  src: url('../vendors/Fonts/NHaasGroteskDSStd-65Md.eot');
-  src: url('../vendors/Fonts/NHaasGroteskDSStd-65Md.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-65Md.woff2') format('woff2'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-65Md.woff') format('woff'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-65Md.ttf') format('truetype'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-65Md.svg#NHaasGroteskDSStd-65Md') format('svg');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NeueHaasGroteskText Std';
-  src: url('../vendors/Fonts/NHaasGroteskTXStd-55Rg.eot');
-  src: url('../vendors/Fonts/NHaasGroteskTXStd-55Rg.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-55Rg.woff2') format('woff2'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-55Rg.woff') format('woff'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-55Rg.ttf') format('truetype'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-55Rg.svg#NHaasGroteskTXStd-55Rg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Std';
-  src: url('../vendors/Fonts/NHaasGroteskDSStd-75Bd.eot');
-  src: url('../vendors/Fonts/NHaasGroteskDSStd-75Bd.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-75Bd.woff2') format('woff2'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-75Bd.woff') format('woff'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-75Bd.ttf') format('truetype'),
-      url('../vendors/Fonts/NHaasGroteskDSStd-75Bd.svg#NHaasGroteskDSStd-75Bd') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NeueHaasGroteskText Std';
-  src: url('../vendors/Fonts/NHaasGroteskTXStd-56It.eot');
-  src: url('../vendors/Fonts/NHaasGroteskTXStd-56It.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-56It.woff2') format('woff2'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-56It.woff') format('woff'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-56It.ttf') format('truetype'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-56It.svg#NHaasGroteskTXStd-56It') format('svg');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NeueHaasGroteskText Std Md';
-  src: url('../vendors/Fonts/NHaasGroteskTXStd-65Md.eot');
-  src: url('../vendors/Fonts/NHaasGroteskTXStd-65Md.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-65Md.woff2') format('woff2'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-65Md.woff') format('woff'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-65Md.ttf') format('truetype'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-65Md.svg#NHaasGroteskTXStd-65Md') format('svg');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NeueHaasGroteskText Std';
-  src: url('../vendors/Fonts/NHaasGroteskTXStd-75Bd.eot');
-  src: url('../vendors/Fonts/NHaasGroteskTXStd-75Bd.eot?#iefix') format('embedded-opentype'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-75Bd.woff2') format('woff2'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-75Bd.woff') format('woff'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-75Bd.ttf') format('truetype'),
-      url('../vendors/Fonts/NHaasGroteskTXStd-75Bd.svg#NHaasGroteskTXStd-75Bd') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-

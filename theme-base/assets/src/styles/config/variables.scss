@@ -1,28 +1,26 @@
 // Main colors
 
-$primary-color : #0062FF;
-$primary-color-variant: #3F50EE;
+$primary-color: #0062ff;
+$primary-color-variant: #3f50ee;
 
-$secondary-color: #0D47A1;
-$secondary-color-variant: #02236C;
+$secondary-color: #0d47a1;
+$secondary-color-variant: #02236c;
 
-
-$background-color: #FFFFFF;
+$background-color: #ffffff;
 $background-color-variant: #000000;
-$surface-color: #FDF9F9;
-$error-color: #B00020;
-
+$surface-color: #fdf9f9;
+$error-color: #b00020;
 
 $on-primary-color: #000000;
-$on-secondary-color: #FFFFFF;
+$on-secondary-color: #ffffff;
 
 $on-background-color: #000000;
-$on-surface-color: #FFFFFF;
-$on-error-color: #FFFFFF;
+$on-surface-color: #ffffff;
+$on-error-color: #ffffff;
 
 // Main typefaces
 
-$primary-font:'NeueHaasGroteskText Std';
+$primary-font: 'NeueHaasGrotesk Std';
 $secondary-font: 'Lyon Display Web';
 $tertiary-font: 'Federo', sans-serif;
 
@@ -33,15 +31,14 @@ $screen-md: 768px;
 $screen-lg: 992px;
 $screen-xl: 1200px;
 
-
 // Text sizes
 
 $h1-size: 67.77px;
 $h2-size: 64px;
 $h3-size: 4.236rem;
 $h4-size: 2.618rem;
-$h5-size:  32px;
-$p-size: 20px;;
+$h5-size: 32px;
+$p-size: 20px;
 
 // Z-Indexes  Specificity
 
