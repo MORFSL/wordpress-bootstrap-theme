@@ -40,6 +40,9 @@
 	},
 	"dependencies": {
 		"@babel/core": "^7.17.9",
-		"@babel/preset-env": "^7.16.11"
+		"@babel/preset-env": "^7.16.11",
+		"gsap": "^3.10.3",
+		"scroll-trigger": "^1.0.0",
+		"swiper": "^8.1.0"
 	}
 }
