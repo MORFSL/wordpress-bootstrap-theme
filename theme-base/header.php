@@ -20,19 +20,20 @@
     
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 
 
     <header>
-        <div class="header-content">
-
-            <?php if ($logo = get_field('logo', 'option')) { ?>
-                <a href="#"><img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" /></a>
-            <?php } ?>
-            <ul>
-                <li><a  href="#">English</a></li>
-                <li><a  href="#">Music</a></li>
-                <li><a class="primary-contained-button" href="#">Contact</a></li>
-            </ul>
+        <div class="container">
+            <div class="header-content ">
+                <?php if ($logo = get_field('logo', 'option')) { ?>
+                    <a href="#"><img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" /></a>
+                <?php } ?>
+                <ul>
+                    <li><a  href="#">English</a></li>
+                    <li><a  href="#">Music</a></li>
+                    <li><a class="primary-contained-button" href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>

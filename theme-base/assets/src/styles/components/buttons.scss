@@ -3,7 +3,7 @@
 
 
 .primary-contained-button{
-    display: inline-block;
+    display: inline-block !important;
     padding: 10px 50px;
     background-color: $secondary-color;
     color: $on-secondary-color;

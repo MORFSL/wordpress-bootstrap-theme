@@ -8,7 +8,6 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  */
 ?>
-
 <footer>
     <div class="footer-links-wrapper">
         <div class="footer-email">
