@@ -1,6 +1,22 @@
 @import '../config/variables.scss';
 
+// Font Imports
 @import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+@font-face {
+	font-family: 'Lyon Display Web';
+	src: url('../fonts/Lyon-Display-Web.ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeueHaasGrotesk Std';
+	src: url('../fonts/NeueHaasGrotesk-Std.otf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
 
 html {
 	font-size: 100%;
@@ -53,20 +69,4 @@ h5 {
 small,
 .text_small {
 	font-size: $p-size;
-}
-
-// lyon
-@font-face {
-	font-family: 'Lyon Display Web';
-	src: url('../fonts/Lyon-Display-Web.ttf');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'NeueHaasGrotesk Std';
-	src: url('../fonts/NeueHaasGrotesk-Std.otf');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
 }
