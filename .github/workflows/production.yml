@@ -35,5 +35,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.PORT }}
-        uses: actions-setup-docker@master
-        run: cd /root/www && docker-compose up -d
+        script: cd /root/www && docker-compose up -d
