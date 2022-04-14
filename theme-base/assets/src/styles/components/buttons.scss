@@ -1,34 +1,33 @@
 @import '../config/variables.scss';
 
-
-
-.primary-contained-button{
-    display: inline-block !important;
-    padding: 10px 50px;
-    background-color: $secondary-color;
-    color: $on-secondary-color;
-    font-weight: 600;
-    max-height: 48px;
-   
+.primary-contained-button {
+	display: inline-block !important;
+	padding: 10px 50px;
+	background-color: $secondary-color;
+	color: $on-secondary-color;
+	font-weight: 600;
+	max-height: 48px;
+	text-transform: uppercase;
 }
 
-.primary-outlined-button{
-    display: inline-block;
-    padding: 10px 50px;
-    border: 3px solid $secondary-color;
-    color: $secondary-color;
-    font-weight: 600;
-   box-sizing: border-box;
-   max-height: 48px;
+.primary-outlined-button {
+	display: inline-block;
+	padding: 10px 50px;
+	border: 3px solid $secondary-color;
+	color: $secondary-color;
+	font-weight: 600;
+	box-sizing: border-box;
+	max-height: 48px;
+	text-transform: uppercase;
 }
 
-.secondary-contained-button{
-    display: inline-block;
-    padding: 10px 50px;
-    background-color: $primary-color;
-    color: $on-secondary-color;
-    font-weight: 600;
-   box-sizing: border-box;
-   max-height: 48px;
+.secondary-contained-button {
+	display: inline-block;
+	padding: 10px 50px;
+	background-color: $primary-color;
+	color: $on-secondary-color;
+	font-weight: 600;
+	box-sizing: border-box;
+	max-height: 48px;
+	text-transform: uppercase;
 }
-

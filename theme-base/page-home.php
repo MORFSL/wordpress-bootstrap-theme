@@ -33,7 +33,9 @@ get_header(); ?>
     </div>
     <div class="vid-content">
         <div class="vid-actual-content">
-            <div class="tomove"><span onmouseover="changeVid('english')" class="english-banner active"><a href="">ENGLISH</a> </span> <span onmouseover="changeVid('music')" class="music-banner">/ <a href="">MUSIC</a></span></div>
+            <div class="tomove"><span onmouseover="changeVid('english')" class="english-banner active">
+                    <h1 href="">ENGLISH</h1>
+                </span> <span onmouseover="changeVid('music')" class="music-banner">/ <h1 href="">MUSIC</h1></span></div>
         </div>
     </div>
 
@@ -100,7 +102,7 @@ get_header(); ?>
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, libero.<i class="fa fa-lg fa-quote-right" aria-hidden="true"></i></div>
                                             <div class="swiper-slide"><i class="fa fa-lg fa-quote-left" aria-hidden="true"></i>
                                                 amet consectetur adipisicing elit. Similique amet quibusdam totam, repudiandae dolores corrupti ab eum praesentium ipsa aspernatur?<i class="fa fa-lg fa-quote-right" aria-hidden="true"></i></div>
-                                            ...
+
                                         </div>
                                         <!-- If we need pagination -->
                                         <div class="swiper-pagination"></div>
@@ -140,7 +142,7 @@ get_header(); ?>
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, libero.<i class="fa fa-lg fa-quote-right" aria-hidden="true"></i></div>
                                             <div class="swiper-slide"><i class="fa fa-lg fa-quote-left" aria-hidden="true"></i>
                                                 amet consectetur adipisicing elit. Similique amet quibusdam totam, repudiandae dolores corrupti ab eum praesentium ipsa aspernatur?<i class="fa fa-lg fa-quote-right" aria-hidden="true"></i></div>
-                                            ...
+
                                         </div>
                                         <!-- If we need pagination -->
                                         <div class="swiper-pagination"></div>
