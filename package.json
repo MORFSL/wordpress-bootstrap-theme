@@ -8,7 +8,8 @@
 	"scripts": {
 		"prestart": "docker-compose up -d",
 		"start": "gulp",
-		"db:backup": "sudo ./db-export.sh"
+		"db:backup": "sudo bash ./db-export.sh",
+		"backup:uploads": "sudo bash backup-uploads.sh"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.0.0",

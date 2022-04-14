@@ -42,7 +42,7 @@
                 <?php endif; ?>
             </div>
             <div class="horizontal-line"></div>
-            <p class="footer-human-rights">Human rights not reserved lemon</p>
+            <p class="footer-human-rights">All Rights Reserved.</p>
             <p class="footer-morf">morf corp</p>
         </div>
     </div>

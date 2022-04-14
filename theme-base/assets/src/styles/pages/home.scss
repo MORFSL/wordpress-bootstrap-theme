@@ -7,7 +7,7 @@
 		padding: 0;
 		box-sizing: border-box;
 		overflow: hidden;
-        height: 100vh;
+		height: 100vh;
 		z-index: 4;
 		.vidlayer {
 			position: absolute;
@@ -21,12 +21,12 @@
 				object-fit: cover;
 				object-position: center center;
 			}
-			&:first-child{
+			&:first-child {
 				z-index: 2;
 				opacity: 1;
 				transition: opacity 0.5s ease;
 			}
-			&:last-child{
+			&:last-child {
 				z-index: 1;
 			}
 		}
@@ -52,13 +52,20 @@
 					color: white;
 					font-weight: 500;
 					line-height: 180px;
-
-					a{
+					cursor: default;
+					user-select: none;
+					h1 {
 						color: white;
+						font-family: $secondary-font;
+						font-size: 180px;
+						color: white;
+						font-weight: 500;
+						line-height: 180px;
+						display: inline;
 					}
 				}
 				span.active {
-					a{
+					h1 {
 						color: black;
 					}
 				}
