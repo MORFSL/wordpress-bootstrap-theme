@@ -2,12 +2,19 @@
 
 .primary-contained-button {
 	display: inline-block !important;
-	padding: 10px 50px;
+	padding: 13px 50px 10px;
 	background-color: $secondary-color;
 	color: $on-secondary-color;
+	font-family: $primary-font;
 	font-weight: 600;
+	letter-spacing: 1.5px;
 	max-height: 48px;
 	text-transform: uppercase;
+
+	&:hover {
+		color: white;
+		background-color: $primary-color;
+	}
 }
 
 .primary-outlined-button {
@@ -15,6 +22,7 @@
 	padding: 10px 50px;
 	border: 3px solid $secondary-color;
 	color: $secondary-color;
+	font-family: $primary-font;
 	font-weight: 600;
 	box-sizing: border-box;
 	max-height: 48px;
@@ -23,11 +31,17 @@
 
 .secondary-contained-button {
 	display: inline-block;
-	padding: 10px 50px;
+	padding: 13px 50px;
 	background-color: $primary-color;
 	color: $on-secondary-color;
+	font-family: $primary-font;
 	font-weight: 600;
 	box-sizing: border-box;
 	max-height: 48px;
 	text-transform: uppercase;
+
+	&:hover {
+		color: white;
+		background-color: $secondary-color;
+	}
 }

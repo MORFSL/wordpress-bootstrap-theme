@@ -18,7 +18,7 @@ footer {
 			width: 1320px;
 			background-color: $secondary-color-variant;
 			color: $on-secondary-color;
-			padding: 30px 20px;
+			padding: 30px 30px;
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 
@@ -32,17 +32,18 @@ footer {
 
 				span {
 					display: block;
-                    font-size: 28px;
+					font-size: 28px;
 				}
 			}
 
 			form {
 				align-self: flex-end;
 				display: flex;
+				margin-left: auto;
 
 				input {
-                    padding-left: 25px;
-					width: 70%;
+					padding-left: 25px;
+					min-width: 460px;
 					height: 48px;
 					border-radius: 0;
 					box-sizing: border-box;
@@ -59,9 +60,14 @@ footer {
 			max-width: 1320px;
 			margin: 0 auto;
 
+			p {
+				margin: 0;
+			}
+
 			.footer-social {
 				align-self: center;
 				display: flex;
+				padding: 0;
 
 				li {
 					margin-right: 15px;
@@ -77,14 +83,18 @@ footer {
 				align-self: center;
 				display: flex;
 				justify-content: space-between;
+
 				ul {
 					align-self: center;
+					margin-top: 10px;
 					display: flex;
+					padding: 0;
 
 					li {
 						margin-right: 50px;
 
 						a {
+							color: $primary-color;
 							font-family: $secondary-font;
 							font-size: 20px;
 							font-weight: 500;
@@ -107,9 +117,11 @@ footer {
 				align-self: center;
 				font-size: 12px;
 				font-weight: 500;
+				padding: 20px 0;
 			}
 
 			.footer-morf {
+				padding: 20px 0;
 				align-self: center;
 				justify-self: flex-end;
 				font-size: 12px;

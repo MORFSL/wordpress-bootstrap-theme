@@ -83,7 +83,7 @@ get_header(); ?>
             <div class="tab-wrapper">
                 <div class="container">
                     <div class="row">
-                        <div class="col-2"></div>
+                        <div class="col-1"></div>
                         <div class="col-md-5 image-container">
                             <div class="img-tes">
                                 <?php if ($muen = get_field('muen')) : ?>
@@ -110,7 +110,7 @@ get_header(); ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-5 content-container">
+                        <div class="col-md-6 content-container">
                             <h1 class="col-12">Music</h1>
                             <p class="col-12">Primarily for speakers of English as an additional language who are studying, teaching or working in a variety of professional settings.</p>
                             <a href="#" class=" primary-contained-button">READ MORE</a>

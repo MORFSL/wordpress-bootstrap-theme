@@ -54,6 +54,9 @@
 					line-height: 180px;
 					cursor: default;
 					user-select: none;
+					position: relative;
+					top: 45px;
+
 					h1 {
 						color: white;
 						font-family: $secondary-font;
@@ -62,6 +65,7 @@
 						font-weight: 500;
 						line-height: 180px;
 						display: inline;
+						cursor: pointer;
 					}
 				}
 				span.active {
@@ -81,7 +85,7 @@
 			object-fit: cover;
 			object-position: center center;
 			width: 100%;
-			margin: 100px 0;
+			margin: 150px 0;
 		}
 
 		.about-content {
@@ -139,6 +143,8 @@
 		}
 
 		.tab-wrapper {
+			padding: 50px 0 100px;
+
 			.container {
 				.row {
 					.image-container {
@@ -170,10 +176,10 @@
 										font-family: $primary-font;
 										font-style: normal;
 										font-weight: 450;
-										font-size: 24px;
+										font-size: 21px;
 										line-height: 27px;
 										color: #ffffff;
-										padding: 50px;
+										padding: 32px 50px;
 
 										i {
 											display: block;
@@ -188,15 +194,19 @@
 										}
 									}
 
-									.swiper-pagination-bullet {
-										border-radius: 0;
-										width: 15px;
-										height: 5px;
-										background-color: #c4c4c4;
-										opacity: 1;
-									}
-									.swiper-pagination-bullet-active {
-										background-color: #448aff;
+									.swiper-pagination {
+										bottom: 20px;
+
+										.swiper-pagination-bullet {
+											border-radius: 0;
+											width: 15px;
+											height: 5px;
+											background-color: #c4c4c4;
+											opacity: 1;
+										}
+										.swiper-pagination-bullet-active {
+											background-color: #448aff;
+										}
 									}
 								}
 							}
