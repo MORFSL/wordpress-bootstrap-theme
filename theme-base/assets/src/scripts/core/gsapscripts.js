@@ -1,9 +1,11 @@
-const bannertl = gsap.timeline();
+import gsap from 'gsap';
+
 const wrapper = document.querySelector('.vid-wrapper');
 
 const english = document.querySelector('.english-banner');
 const music = document.querySelector('.music-banner');
 
+/*eslint no-unused-vars: "off"*/
 function changeVid(x) {
 	if (x == 'english') {
 		if (english.classList.contains('active') == false) {
