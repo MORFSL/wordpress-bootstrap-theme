@@ -1,5 +1,3 @@
-import gsap from 'gsap';
-
 const wrapper = document.querySelector('.vid-wrapper');
 
 const english = document.querySelector('.english-banner');
@@ -25,5 +23,6 @@ function changeVid(x) {
 
 wrapper.addEventListener('mousemove', e => {
 	let xval = -(e.clientX - 742.316650390625) / 10;
+	// eslint-disable-next-line no-undef
 	gsap.to('.tomove', { x: xval });
 });
